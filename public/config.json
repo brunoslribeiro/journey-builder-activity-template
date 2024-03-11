@@ -27,19 +27,20 @@
         }
     },
     "configurationArguments": {	  
+	  "applicationExtensionKey":"0d85fd31-5d4d-45fd-b427-9746185974f0",
       "save": {
         "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/save",
-          "verb": "POST",
+        "verb": "POST",
         "useJwt": false
        },
        "publish": {
         "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/publish",
-           "verb": "POST",
+        "verb": "POST",
         "useJwt": false
        },
       "stop": {
         "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/stop",
-           "verb": "POST",
+        "verb": "POST",
         "useJwt": false
       },
       "validate": {
