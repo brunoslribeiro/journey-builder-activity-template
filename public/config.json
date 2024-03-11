@@ -11,7 +11,11 @@
             "name": "Template",
           "description": "A Template for a custom Journey Builder activity",
           "step1Label": "Configure Activity"
-        }
+        },
+		"pt-BR": {
+			"name": "Nome do componente",
+			"description": "Descrição do componente"
+		}
     },
     "arguments": {
         "execute": {
