@@ -22,7 +22,7 @@
             "body": "",
             "header": "",
             "format": "json",
-            "useJwt": false,
+            "useJwt": true,
             "timeout": 10000
         }
     },
@@ -31,22 +31,22 @@
       "save": {
         "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/save",
         "verb": "POST",
-        "useJwt": false
+        "useJwt": true
        },
        "publish": {
         "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/publish",
         "verb": "POST",
-        "useJwt": false
+        "useJwt": true
        },
       "stop": {
         "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/stop",
         "verb": "POST",
-        "useJwt": false
+        "useJwt": true
       },
       "validate": {
         "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/validate",
         "verb": "POST",
-        "useJwt": false
+        "useJwt": true
       }
     },
     "wizardSteps": [
