@@ -17,35 +17,35 @@
         "execute": {
            "inArguments":[],
           "outArguments": [],
-          "url": "https://<your-domain-here>/journeybuilder/execute",
+          "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
             "format": "json",
-            "useJwt": true,
+            "useJwt": false,
             "timeout": 10000
         }
     },
-    "configurationArguments": {
+    "configurationArguments": {	  
       "save": {
-        "url": "https://<your-domain-here>/journeybuilder/save",
+        "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/save",
           "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
        "publish": {
-        "url": "https://<your-domain-here>/journeybuilder/publish",
+        "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/publish",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
       "stop": {
-        "url": "https://<your-domain-here>/journeybuilder/stop",
+        "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/stop",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       },
       "validate": {
-        "url": "https://<your-domain-here>/journeybuilder/validate",
+        "url": "https://ec2-54-175-0-178.compute-1.amazonaws.com/journeybuilder/validate",
         "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       }
     },
     "wizardSteps": [
